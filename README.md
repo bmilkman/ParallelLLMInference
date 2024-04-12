@@ -1,4 +1,4 @@
-## 背景
+## Background
 
 Currently, there are many large models available online, many of which offer multi-GPU parallel computing capabilities. However, these features are largely due to the insufficient VRAM of
 single cards, so inference is performed through VRAM sharing. Large companies usually have a considerable reserve of enterprise GPUs, and hope to use large models to batch-process very large-scale tasks. 
@@ -9,6 +9,7 @@ synchronous operations.
 
 
 
+## 背景
 
 目前网上有非常多的大模型，很多提供了多卡并行计算的功能，但这些功能更多是因为单卡的显存不足，所以通过显存共享的方式去做推理。
 大公司一般都会有比较多的显卡储备，希望通过大模型去批量做一些规模非常大的事情。这种场景下明显小模型更受青睐，而单卡推理小模型并不是问题，问题在于如何通过使用多张卡去加速推理的速度。
